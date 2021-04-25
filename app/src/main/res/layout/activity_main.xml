@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <layout xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<RelativeLayout android:paddingBottom="16dp" android:paddingRight="16dp" android:paddingTop="16dp" android:paddingLeft="16dp" android:background="@color/white" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:background="@color/teal_200" android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="30sp" android:textColor="@color/black" android:layout_marginBottom="30dp" android:id="@+id/textView"/>
+
+    <EditText android:background="@color/teal_200" android:layout_height="51dp" android:layout_width="376dp" android:textColor="@color/black" android:id="@+id/editText" android:inputType="number" android:ems="10" android:layout_marginTop="3dp" android:layout_below="@id/textView"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/button7" android:layout_marginTop="80dp" android:layout_below="@id/editText" tools:ignore="HardcodedText" app:backgroundTint="@color/teal_700" android:textColorHighlight="#0B0A0A" android:text="7"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/button8" android:layout_marginTop="80dp" android:layout_below="@id/editText" tools:ignore="HardcodedText" app:backgroundTint="@color/teal_700" android:text="8" android:layout_marginRight="-95dp" android:layout_marginLeft="97dp" android:layout_alignRight="@+id/button7"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/button9" android:layout_marginTop="80dp" android:layout_below="@id/editText" tools:ignore="HardcodedText" app:backgroundTint="@color/teal_700" android:text="9" android:layout_marginRight="-95dp" android:layout_marginLeft="194dp" android:layout_alignRight="@+id/button8"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/buttonDivide" android:layout_marginTop="80dp" android:layout_below="@+id/editText" tools:ignore="HardcoadedText" app:backgroundTint="@color/teal_700" android:text="/" android:layout_marginLeft="291dp" android:layout_alignLeft="@+id/button7"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/button4" android:layout_marginTop="25dp" android:layout_below="@id/button7" tools:ignore="HardcoadedText" app:backgroundTint="@color/teal_700" android:text="4"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/button5" android:layout_marginTop="25dp" android:layout_below="@id/button8" tools:ignore="HardcoadedText" app:backgroundTint="@color/teal_700" android:text="5" android:layout_marginLeft="97dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/button6" android:layout_marginTop="25dp" android:layout_below="@id/button9" tools:ignore="HardcoadedText" app:backgroundTint="@color/teal_700" android:text="6" android:layout_marginLeft="194dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/buttonMultiply" android:layout_marginTop="25dp" android:layout_below="@id/buttonDivide" tools:ignore="HardcoadedText" app:backgroundTint="@color/teal_700" android:text="*" android:layout_marginLeft="291dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/button1" android:layout_marginTop="25dp" android:layout_below="@id/button4" tools:ignore="HardcoadedText" app:backgroundTint="@color/teal_700" android:text="1"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/button2" android:layout_marginTop="25dp" android:layout_below="@id/button5" tools:ignore="HardcoadedText" app:backgroundTint="@color/teal_700" android:text="2" android:layout_marginLeft="97dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/button3" android:layout_marginTop="25dp" android:layout_below="@id/button6" tools:ignore="HardcoadedText" app:backgroundTint="@color/teal_700" android:text="3" android:layout_marginLeft="194dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/buttonSubtract" android:layout_marginTop="25dp" android:layout_below="@id/buttonMultiply" tools:ignore="HardcoadedText" app:backgroundTint="@color/teal_700" android:text="-" android:layout_marginLeft="291dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/button0" android:layout_marginTop="25dp" android:layout_below="@id/button1" tools:ignore="HardcoadedText" app:backgroundTint="@color/teal_700" android:text="0"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/buttonDot" android:layout_marginTop="25dp" android:layout_below="@id/button2" tools:ignore="HardcoadedText" app:backgroundTint="@color/teal_700" android:text="." android:layout_marginLeft="97dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/buttonEquals" android:layout_marginTop="25dp" android:layout_below="@id/button3" tools:ignore="HardcoadedText" app:backgroundTint="@color/teal_700" android:text="=" android:layout_marginLeft="194dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/buttonPlus" android:layout_marginTop="25dp" android:layout_below="@id/buttonSubtract" tools:ignore="HardcoadedText" app:backgroundTint="@color/teal_700" android:text="+" android:layout_marginLeft="291dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:textColor="#FFF8DC" android:id="@+id/buttonClear" android:layout_marginTop="25dp" android:layout_below="@id/buttonPlus" tools:ignore="HardcoadedText" app:backgroundTint="@color/teal_700" android:text="C" android:layout_marginLeft="291dp"/>
+
+</RelativeLayout>
+
+</layout>
